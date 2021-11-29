@@ -1,0 +1,788 @@
+body{
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  font-size: 15px;
+}
+
+body p{
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+}
+
+section.maincontent{
+  width: 85vw;
+  margin: 0 auto;
+
+  display: flex;
+}
+
+/* LEFT COLUMN */
+section#leftcol{
+  width:21%;
+  /* background-color: #cbcbcb; */
+}
+
+div.icon-item>div.imagebox{
+  width: 46.25px;
+  height: 46.25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+div.icon-item>div.imagebox-twitter{
+  width: 46.25px;
+  height: 46.25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(29, 161, 242);
+}
+
+div#home{
+  fill: rgb(29, 161, 242);
+  color: rgb(29, 161, 242);
+}
+
+div.icon-item{
+  display: flex;
+  align-items: center;
+  margin-bottom: .7rem;
+}
+
+div.icon-item p{
+  font-weight: 700;
+  font-size: 1.55rem;
+  padding-left: 1rem;
+}
+
+div.icon-item:hover{
+  background-color: rgba(29, 161, 242, 0.1);
+  border-radius: 30px;
+  fill: rgb(29, 161, 242);
+  color: rgb(29, 161, 242);
+  width: 78%;
+}
+
+div.icon-item:first-child:hover{
+  background-color: rgba(29, 161, 242, 0.1);
+  border-radius: 100%;
+  fill: rgb(29, 161, 242);
+  color: rgb(29, 161, 242);
+  width: 18.5%;
+}
+
+div.icon-item>div.imagebox-twitter>svg{
+  width: 63%;
+  height: 63%;
+  margin-top: .4rem;
+}
+
+div.icon-item>div.imagebox>svg{
+  width: 57%;
+  height: 57%;
+}
+
+div#profileimgbox{
+  width: 26.25px;
+  height: 26.25px;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(29, 161, 242);
+
+  border-radius: 100%;
+  background-image: url("../imgs/profile5.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+div.icon-item>div#profile-image{
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  background-color: rgb(230, 236, 240);
+
+  background-image: url("../imgs/profile5.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+div#tweetbtnleft{
+  width: 211.5px;
+  height: 49px;
+
+  background-color: rgb(29, 161, 242);
+  color: white;
+  border-radius: 50px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 14px;
+  font-weight:600;
+  margin-top: 1.3rem;
+  margin-right: 2rem;
+}
+
+div#tweetbtnleft:hover{
+  background-color: rgb(26, 145, 218);
+  border-radius: 50px;
+}
+
+/* MIDDLE COLUMN */
+section#middlecol{
+  width: 50%;
+  /* background-color: #888888; */
+  border: solid .5px rgb(230, 236, 240);
+}
+
+div.bigbox{
+  width: 100%;
+}
+
+div#homebar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: solid .5px rgb(230, 236, 240);
+  margin-top: .8rem;
+  padding-bottom: .6rem;
+}
+
+div#homebar>p{
+  width: 50%;
+  padding-left: 1.3rem;
+  font-size: 1.5rem;
+  font-weight: 900;
+  margin-bottom: .5rem;
+  margin-top: .2rem;
+}
+
+div#sparkleicon{
+  width: 35px;
+  height: 35px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 1.2rem;
+  margin-bottom: .2rem;
+}
+
+div#sparkleicon:hover{
+  background-color: rgba(29, 161, 242, 0.1);
+  border-radius: 30px;
+}
+
+div#sparkleicon svg{
+  width: 22.5px;
+  height: 22.5px;
+
+  fill: rgb(29, 161, 242)
+}
+
+div#happening{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding-left: .3rem;
+}
+
+div#happening>div.imagebox{
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  background-color: rgb(230, 236, 240);
+  margin: .7rem .5rem .5rem 1rem;
+
+  background-image: url("../imgs/profile5.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+div#happening>p{
+  padding-left: .15rem;
+  color: rgba(20, 23, 26, 0.5);
+  font-size: 1.5rem;
+}
+
+div#options{
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 4px;
+}
+
+div#fouriconsgroup{
+  width: 45%;
+  display: flex;
+  justify-content: center;
+  padding-left: .2rem;
+}
+
+div#fouricons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div#fouricons>div.imagebox{
+  width: 37px;
+  height: 37px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div#fouricons>div.imagebox:hover{
+  background-color: rgba(29, 161, 242, 0.1);
+  border-radius: 30px;
+}
+
+
+div#fouricons>div.imagebox svg{
+  width: 22.5px;
+  height: 22.5px;
+  fill: rgb(29, 161, 242);
+}
+
+div#threebuttons{
+  display: flex;
+  width: 50%;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 1rem;
+}
+
+div#circlebox{
+  width: 30px;
+  height: 30px;
+
+  border-right: .5px solid #000;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding-right: 10px;
+}
+
+div#circlebox>#circle{
+  width: 16px;
+  height: 16px;
+
+  border: solid 2px #dadada;
+  border-radius: 100%;
+
+}
+
+div#circleplus{
+  width: 30px;
+  height: 30px;
+
+  border: solid 1px rgba(29, 161, 242, 0.4);
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+}
+
+div#circleplus svg{
+  width: 22px;
+  height: 22px;
+  fill: rgba(29, 161, 242, 0.4);
+}
+
+div#tweetbtn{
+  width: 76px;
+  height: 39px;
+
+  background-color: rgba(29, 161, 242, 0.5);
+  color: white;
+  border-radius: 50px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin: 10px;
+  font-size: 14px;
+  font-weight:600;
+}
+
+div#graybar{
+  height: 10px;
+  background-color: rgb(230, 236, 240);
+}
+
+/* TWEETCARD */
+
+div.tweetcard{
+  width: 100%;
+  display: flex;
+  border-top: 0.5px solid rgb(230, 236, 240);
+  padding-top: 1rem;
+  padding-left: .3rem;
+}
+
+div.tweetcard:hover{
+  background-color: rgba(230, 236, 240, 0.2);
+}
+
+div.tweetcard>div#profileimg{
+  width: 50px;
+  height: 50px;
+
+  border-radius: 100%;
+  background-color: rgb(230, 236, 240);
+  margin: 0 0.5rem 0.5rem 1rem;
+
+  background-image: url("../imgs/profile2.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+div.tweetcard>div#profileimg2{
+  width: 50px;
+  height: 50px;
+
+  border-radius: 100%;
+  background-color: rgb(230, 236, 240);
+  margin: 0 0.5rem 0.5rem 1rem;
+
+  background-image: url("../imgs/profile3.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+div.tweetcard>div#profileimg3{
+  width: 50px;
+  height: 50px;
+
+  border-radius: 100%;
+  background-color: rgb(230, 236, 240);
+  margin: 0 0.5rem 0.5rem 1rem;
+
+  background-image: url("../imgs/profile4.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+div.tweetcard>div#profileimg4{
+  width: 50px;
+  height: 50px;
+
+  border-radius: 100%;
+  background-color: rgb(230, 236, 240);
+  margin: 0 0.5rem 0.5rem 1rem;
+
+  background-image: url("../imgs/profile6.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+div.tweetcard>div#profileimg5{
+  width: 50px;
+  height: 50px;
+
+  border-radius: 100%;
+  background-color: rgb(230, 236, 240);
+  margin: 0 0.5rem 0.5rem 1rem;
+
+  background-image: url("../imgs/profile7.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+div.tweetcard>div#profileimg6{
+  width: 50px;
+  height: 50px;
+
+  border-radius: 100%;
+  background-color: rgb(230, 236, 240);
+  margin: 0 0.5rem 0.5rem 1rem;
+
+  background-image: url("../imgs/profile8.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+div.tweetcard>div#profileimg>div.imagebox{
+  width: 100%;
+  height: 100%;
+}
+
+div.tweetcard>div#profileimg>div.imagebox img{
+  width: 100%;
+  height: 100%;
+}
+
+div.tweetstuff{
+  display: flex;
+  width: 85%;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  /* margin-right: 1rem; */
+}
+
+div.tweetstuff p, a{
+  padding: 0;
+  margin: 0;
+}
+
+div.tweetnameg{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+div.twtname{
+  display: flex;
+  width: 60%;
+}
+
+div.twtname p, a{
+  margin: 0;
+  text-decoration: none;
+  padding-right: 0.5rem;
+  color: rgb(101, 119, 134);
+}
+
+div.twtname>a:nth-child(1){
+  color: rgb(20, 23, 26);
+  font-weight: 700;
+}
+
+div#ddarrow{
+  width: 27px;
+  height: 27px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+div#ddarrow:hover{
+  background-color: rgba(29, 161, 242, 0.1);
+  border-radius: 30px;
+}
+
+div#ddarrow:hover svg{
+  fill: rgb(29, 161, 242);
+}
+
+div#ddarrow>svg{
+  width: 15px;
+  height: 15px;
+  fill: rgb(230, 236, 240);
+}
+
+div.twtmedia{
+  width: 100%;
+}
+
+div.twttext{
+  padding-bottom: 1rem;
+}
+
+div.twtmedia>div.imagebox{
+  width: 507px;
+  height: 283px;
+  background-image: url("../imgs/shiba-inu.jpg");
+  background-size: cover;
+  background-position: 0 25%;
+  border-radius: 15px;
+}
+
+div.twtmedia>div.imagebox2{
+  width: 507px;
+  height: 283px;
+  background-image: url("../imgs/cat.jpg");
+  background-size: cover;
+  background-position: 0 25%;
+  border-radius: 15px;
+}
+
+div.shareicons{
+  display: flex;
+  width: 100%;
+
+  margin-top: .25rem;
+  margin-bottom: .25rem;
+}
+
+div.shareicons div{
+  width: 34.75px;
+  height: 34.75px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-right: 4rem;
+}
+
+div.shareicons svg{
+  width: 18.75px;
+  height: 18.75px;
+
+  fill: rgb(230, 236, 240)
+}
+
+div#threadicon:hover{
+  background-color: rgba(29, 161, 242, 0.1);
+  border-radius: 30px;
+}
+
+div#threadicon:hover svg{
+  fill: rgb(29, 161, 242);
+}
+
+div#retweet:hover{
+  background-color: rgba(23, 191, 99, 0.1);
+  border-radius: 30px;
+}
+
+div#retweet:hover svg{
+  fill: rgb(23, 191, 99);
+}
+
+div#likes:hover{
+  background-color: rgba(224, 41, 98, 0.1);
+  border-radius: 30px;
+}
+
+div#likes:hover svg{
+  fill: rgb(224, 41, 98);
+}
+
+div#share:hover{
+  background-color: rgba(29, 161, 242, 0.1);
+  border-radius: 30px;
+}
+
+div#share:hover svg{
+  fill: rgb(29, 161, 242);
+}
+
+/* RIGHT COLUMN */
+section#rightcol{
+  width: 28%;
+  /* background-color: #7c7c7c; */
+  padding-left: 2.5rem;
+}
+
+div.searchbar{
+  width: 100%;
+  display: flex;
+
+  background-color: rgb(230, 236, 240);
+  align-items: center;
+  margin-top: 0.5rem;
+
+  border-radius: 40px;
+}
+
+div#searchicon{
+  width: 40px;
+  height: 38.5px;
+
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-left: .5rem;
+}
+
+div#searchicon svg{
+  width: 40px;
+  height: 18.75px;
+  fill: rgba(20, 23, 26, 0.5)
+}
+
+div.searchbar p{
+  padding: .625rem .625rem .625rem .425rem;
+  color: rgba(20, 23, 26, 0.5);
+}
+
+div.rightcolcard{
+  width: 100%;
+  margin-top: 1.2rem;
+  background-color: rgb(245, 248, 250);
+  border-radius: 15px;
+}
+
+div.rightcolcard>div{
+  padding: 1rem 1.2rem 1rem 1.2rem;
+  border-bottom: solid 0.5px rgb(230, 236, 240);
+}
+
+div.rightcolcard>div:last-child{
+  border-bottom: none;
+}
+
+div#trendsforyou>div:first-child{
+  padding: .3rem 1.2rem .4rem 1.2rem;
+}
+
+div#trends{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+div#trends p{
+  font-size: 19px;
+  font-weight: 700;
+}
+
+div#gearicon{
+  width: 37px;
+  height: 37px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div#gearicon:hover{
+  background-color: rgba(29, 161, 242, 0.1);
+  border-radius: 30px;
+}
+
+div#gearicon svg{
+  width: 22.5px;
+  height: 22.5px;
+
+  fill: rgb(29, 161, 242)
+}
+
+div#trendmedia{
+  display: flex;
+  border: 0.5px solid rgb(230, 236, 240);
+  margin-top: .5rem;
+  border-radius: 15px;
+
+  align-items: center;
+  justify-content: space-between;
+  overflow: hidden;
+  font-size: 13px
+}
+
+div#trendcardmedia:hover{
+  background-color: rgba(230, 236, 240, 0.4);
+  border-radius: 15px;
+}
+
+div#trendcard>p:first-child{
+  font-size: 13px;
+}
+
+div#trendcard:hover{
+  background-color: rgba(230, 236, 240, 0.4);
+}
+
+div#trendimg{
+  width: 82px;
+  height: 82px;
+
+  background-image: url("../imgs/halloween.jpg");
+  background-position: 25% 0;
+  background-size: cover;
+}
+
+div#trendloc{
+  font-size: 0.81rem;
+  color: rgb(101, 119, 134);
+  line-height: 150%;
+}
+
+div#trendhash{
+  font-size: 1rem;
+  color: #000;
+  line-height: 130%;
+  padding-top: 4px;
+  font-weight: 600;
+}
+
+div#trendimpact{
+  font-size: 1rem;
+  color: rgb(101, 119, 134);
+  line-height: 130%;
+}
+
+div#trendimpact>p{
+  padding-top: 4px;
+}
+
+div#trendtext{
+  padding-left: .625rem;
+}
+
+div#trendtext>p:first-child{
+  color: rgb(101, 119, 134);
+}
+
+div#trendmedia:hover{
+  background-color: rgba(230, 236, 240, 0.5);
+  border-radius: 15px;
+}
+
+div#followcard{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+div#usercard{
+  display: flex;
+}
+
+div#profiletext{
+  padding-left: .6rem;
+  font-size: 1rem;
+  line-height: 130%;
+}
+
+div#profiletext>p:first-child{
+  color: #000;
+  font-weight: 700;
+}
+
+div#profiletext>p:last-child{
+  color: rgb(101, 119, 134);
+  font-weight: 400;
+}
+
+div#usercard>div#profileimg{
+  width: 38.5px;
+  height: 38.5px;
+  overflow: hidden;
+  border-radius: 100%;
+
+  background-image: url("../imgs/profile1.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+div#followbtn{
+  padding: 0.25rem 1rem;
+  line-height: 130%;
+  border: 1px solid rgb(29, 161, 242);
+  border-radius: 30px;
+  color: rgb(29, 161, 242);
+  font-weight: 700;
+}
+
+div#followbtn:hover{
+  background-color: rgba(29, 161, 242, 0.2);
+}
